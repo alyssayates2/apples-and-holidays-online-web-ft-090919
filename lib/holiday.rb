@@ -23,7 +23,7 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
 
-holiday_hash.merge(:winter => {:christmas, :new_years => "balloons"})
+holiday_hash.merge(:winter => {:christmas "balloons", :new_years "balloons"})
 
 holiday_hash
 
