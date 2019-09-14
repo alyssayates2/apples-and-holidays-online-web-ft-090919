@@ -23,28 +23,6 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_supplies.merge(:winter => {:christmas => "Deer", :new_years => "Champagne"})
-  def adding_matz
-# add the following information to the top level of programmer_hash
-
-	programmer_hash =
-	programmer_hash =
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
-        },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
-        }
-     }
-
-
-programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]})
 end
 
   # holiday_hash is identical to the one above
